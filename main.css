@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-green: hsl(75, 94%, 57%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-grey: hsl(0, 0%, 20%);
+    --color-Dark-Grey: hsl(0, 0%, 12%);
+    --color-Black: hsl(0, 0%, 8%);
+}
+
+body {
+    background-color: var(--color-Black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: var(--color-Dark-Grey);
+    border-radius: 12px;
+    width: 360px;
+}
+
+.card .card-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.card .profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.card-header .profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.card-header .profile-name {
+    font-size: 30px;
+    color: var(--color-white);
+    margin-top: 20px;
+}
+.card-header .address {
+    font-size: 16px;
+    color: var(--color-green);
+    margin-top:10px;
+}
+.card-header .profile-job {
+    margin-top: 30px;
+    color: var(--color-white);
+    font-size: 16px;
+}
+.card-body {
+    padding: 10px 30px 10px;
+    /* transition: all 50ms 3s all; */
+
+}
+.card-body .social-link {
+    background-color: var(--color-grey);
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    color: var(--color-white);
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.card-body .social-link:hover {
+    background-color: var(--color-green);
+    color: var(--color-white);
+}

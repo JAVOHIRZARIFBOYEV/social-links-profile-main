@@ -1,0 +1,1 @@
+# Bu projet birinchi repositire
